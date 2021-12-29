@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "deploy": "ng build --prod --base-href=https://klissmangranados.github.io/weworkers-client/ --deploy-url=https://klissmangranados.github.io/weworkers-client/",
     "start": "node --max_old_space_size=4000 ./node_modules/@angular/cli/bin/ng serve --port 4200 --host 0.0.0.0",
     "build": "ng build",
     "test": "ng test",

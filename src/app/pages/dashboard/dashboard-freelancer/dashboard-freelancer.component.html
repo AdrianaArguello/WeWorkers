@@ -4,7 +4,7 @@
   <div class="welcome-card" *ngIf="welcome">
     <p-card header="¡Hola, Bienvenido a We Workers!" [style]="{'width': 'auto', 'margin': '2em 3rem', 'display': 'flex'}">
       <ng-template pTemplate="header">
-          <img alt="Card" class="card-img" src="../../../../assets/landing/cards/card-3.gif">
+          <img alt="Card" class="card-img" src="assets/landing/cards/card-3.gif">
       </ng-template>
     <i class="pi pi-times icon" (click)="welcome = !welcome" style="cursor: pointer;"></i>
       <p>¿Listo para Trabajar?, Completa tu perfil presionando el icono que está en la barra de navegación para poder aplicar a un proyecto, recuerda leer nuestras políticas y términos de condición para cerciorarte de tener una buena experiencia utilizando We Workers ¡Mucho exitó compañero!</p>
@@ -53,7 +53,7 @@
       </div>
   </div>
   <div *ngIf="message !== ''">
-    <img class="text-center" src="../../../../assets/images/Dashboard/message.gif" height="200px" style="display:block;
+    <img class="text-center" src="assets/images/Dashboard/message.gif" height="200px" style="display:block;
     margin:auto;" alt="">
     <h3 class="text-center">{{message}}</h3>
     <br>
